@@ -1,0 +1,141 @@
+body {
+    margin:0;
+    background-image: url("log5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height:fit-content;
+    width:fit-content;  
+}
+.maincontent {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    size: 20px;
+}
+.brandname {
+    height: 200px;
+    width: 150px;
+    transform: translateY(20px);
+    transform: translateX(20px);
+    
+}
+.navbar {
+    margin-top: 50px;
+    transform: translateX(-50px);
+}
+.navbar {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align:center;
+    padding: 20px 30px;
+    color: black;
+    font-size:x-large;
+    font-weight: 600;
+    scroll-margin-right: 100px;
+    transition: all 0.3s;
+    margin:10px 0;
+    font-size: 30px;
+    display:inline-flex;
+    justify-content: right;
+
+}
+li:hover {
+    color:#df19ba;
+    font-size: 1.3rem;
+    border-bottom: 5px solid,black;
+    padding-bottom: 8px;
+}
+
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-display: initial;
+    color:rgb(13, 116, 25);
+}
+.introwritten {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 50px;
+    animation-name: slidein, fadein;
+    animation-duration: 2s, 2s;
+    animation-iteration-count: 1, 1;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:rgb(10, 60, 152);
+}
+@keyframes slidein {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.img2 {
+    width: 500px;
+    height: 400px;
+    transform: scale(1);
+    position:initial;
+    bottom: 50px;
+    animation-name: slidein1, fadein1;
+    animation-duration: 2s, 2s;
+    animation-iteration-count: 1, 1;
+    margin-left: 250px;
+}
+@keyframes slidein1 {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes fadein1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.heading1 {
+    font-size: 4rem;
+    color: #b409a6;
+}
+.button1 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #4704a5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:gold;
+    margin-top: 20px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.button1:hover {
+    outline: 5px solid #9f0606;
+    outline-offset: 5px;
+    transform: scale(0.8);
+} 
